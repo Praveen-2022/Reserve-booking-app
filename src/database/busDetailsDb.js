@@ -1,0 +1,78 @@
+const data = [
+  {
+    runningDay: ["Tuesday", "Thursday", "Saturday"],
+    name:  "Safar Exp",
+    seatType: ["A/C Sleeper(2+1)", "|", "Left Seat", "|", "Window Seat"],
+    seatInfo: ["Live Tracking", "Policies", "Photos", "Amenities", "Review"],
+    rating: "3",
+    price: "$899",
+    depTime:  "22:45",
+    arrTime:  "06:20",
+    timeduration:"07hrs59min",
+    pickPoint: "Hedrabad",
+    dropPoint: "Delhi",
+    depPoint: "Hedrabad Road",
+    arrPoint: "Delhi Road",
+    busSeatData: {
+      UpperSheet: {
+        name: "Upper Sheet",
+        seatLeft: [
+          { id: 01, seatNo: "UP01", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 02, seatNo: "UP02", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 03, seatNo: "UP03", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 04, seatNo: "UP04", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 05, seatNo: "UP05", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 06, seatNo: "UP06", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 07, seatNo: "UP07", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+        seatMid: [
+          { id: 08, seatNo: "UP08", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 09, seatNo: "UP09", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 10, seatNo: "UP10", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 11, seatNo: "UP11", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 12, seatNo: "UP12", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 13, seatNo: "UP13", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 14, seatNo: "UP14", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+        seatRight: [
+          { id: 15, seatNo: "UP15", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 16, seatNo: "UP16", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 17, seatNo: "UP17", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 18, seatNo: "UP18", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 19, seatNo: "UP19", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+      },
+      lowerSheet: {
+        name: "Upper Sheet",
+        id: 1,
+        seatLeft: [
+          { id: 01, seatNo: "LW01", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 02, seatNo: "LW02", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 03, seatNo: "LW03", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 04, seatNo: "LW04", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 05, seatNo: "LW05", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 06, seatNo: "LW06", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 07, seatNo: "LW07", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+        seatMid: [
+          { id: 08, seatNo: "LW08", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 09, seatNo: "LW09", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 10, seatNo: "LW10", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 11, seatNo: "LW11", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 12, seatNo: "LW12", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 13, seatNo: "LW13", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 14, seatNo: "LW14", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+        seatRight: [
+          { id: 15, seatNo: "LW15", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 16, seatNo: "LW16", price: 1599,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 17, seatNo: "LW17", price: 1199,value: "https://ibb.co/4gmGSFm", selected:false },
+          { id: 18, seatNo: "LW18", price: 899 ,value: "https://ibb.co/4gmGSFm", selected:false},
+          { id: 19, seatNo: "LW19", price: 699 ,value: "https://ibb.co/4gmGSFm", selected:false},
+        ],
+      },
+    },
+  },
+];
+
+module.exports = data;
